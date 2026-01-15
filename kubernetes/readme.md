@@ -9,3 +9,8 @@
 ```bash
 kubectl config set-context --current --namespace=<namespace-name>
 ```
+
+### To do port forwarding on a pod
+```bash
+kubectl port-forward pods/<pod-name>
+```
